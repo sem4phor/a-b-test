@@ -1,5 +1,5 @@
 <template>
-<div class="container flex flex-col p-12">
+<div class="container flex flex-col p-12 items-center">
   <h1 class="text-4xl mb-4">{{ article.name }}</h1>
   <client-only>
     <!-- media experiment - start -->
@@ -21,6 +21,7 @@
   <NuxtLink class="underline" to="/">
     HOME
   </NuxtLink>
+  <button @click="$store.commit('trackEvent')">eventt</button>
 </div>
 </template>
 
@@ -35,8 +36,11 @@
     },
     methods: {
       signUp () {
-        this.$event('sign-up', {
-          experiments: this.$experiments
+        this.$store.commit('trackEvent', {
+          name: 'sign-up',
+          payload: {
+            experiments: this.$experiments
+          }
         });
       }
     }

@@ -1,6 +1,7 @@
 import experiments from '~/experiments';
 import cookie from 'js-cookie';
 import cartesian from 'cartesian-product';
+import Vue from 'vue';
 
 const randomInt = max => Math.floor(Math.random() * max);
 
