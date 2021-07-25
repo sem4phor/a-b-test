@@ -1,7 +1,10 @@
 <template>
-  <div class="container">
-    Articles
-    <NuxtLink :to="article.slug" v-for="article in articles.articles" :key="article.slug">
+  <div class="container flex flex-col">
+    <h1 class="text-4xl">Articles</h1>
+    <!-- <pre>
+      {{ articles }}
+    </pre> -->
+    <NuxtLink class="underline" :to="article.slug" v-for="article in articles" :key="article.slug">
       {{ article.name }}
     </NuxtLink>
   </div>

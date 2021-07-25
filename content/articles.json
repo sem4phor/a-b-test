@@ -8,13 +8,40 @@
           "type": "img",
           "url": "https://d2i5t58cb8fkm0.cloudfront.net/wp-content/uploads/2018/11/22140455/ThereseHoldingCup-1200x630-700x368.jpg"
         },
-        "bookList": {
+        "booklist": {
           "type": "book-list",
           "url": "https://d2i5t58cb8fkm0.cloudfront.net/wp-content/uploads/2021/07/12133935/BlinksCoversheader-700x362.png"
         },
         "video": {
           "type": "video",
-          "url": ""
+          "url": "https://i.ytimg.com/an_webp/R2rFKRpieSU/mqdefault_6s.webp?du=3000&sqp=CKL09IcG&rs=AOn4CLA_0EeAZxaRRSIbZfs_972fF3WHTQ"
+        }
+      }
+    },
+    "introCopy": {
+      "variations": {
+        "control": "Meet the app that revolutionized reading.",
+        "test": "Meet the app that has 18 million users."
+      }
+    },
+    "outroCopy": "Thanks a lot for reading the article!"
+  },
+  {
+    "name": "Article 2",
+    "slug": "article-2",
+    "media": {
+      "variations": {
+        "control": {
+          "type": "img",
+          "url": "https://d2i5t58cb8fkm0.cloudfront.net/wp-content/uploads/2018/11/22140455/ThereseHoldingCup-1200x630-700x368.jpg"
+        },
+        "booklist": {
+          "type": "book-list",
+          "url": "https://d2i5t58cb8fkm0.cloudfront.net/wp-content/uploads/2021/07/12133935/BlinksCoversheader-700x362.png"
+        },
+        "video": {
+          "type": "video",
+          "url": "https://satoristudio.net/wp-content/uploads/videos/blinkist-video.jpg"
         }
       }
     },
