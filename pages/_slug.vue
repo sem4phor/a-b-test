@@ -21,28 +21,30 @@
   <NuxtLink class="underline" to="/">
     HOME
   </NuxtLink>
-  <button @click="$store.commit('trackEvent')">eventt</button>
 </div>
 </template>
 
 <script>
-  export default {
-    ssr: false,
-    async asyncData({ $content, params: { slug } }) {
-      const article = (await $content('articles')
-        .where({ slug })
-        .fetch())[0];
-      return { slug, article };
-    },
-    methods: {
-      signUp () {
-        this.$store.commit('trackEvent', {
-          name: 'sign-up',
-          payload: {
-            experiments: this.$experiments
-          }
-        });
-      }
+/**
+ * Article component
+ */
+export default {
+  ssr: false,
+  async asyncData({ $content, params: { slug } }) {
+    const article = (await $content('articles')
+      .where({ slug })
+      .fetch())[0];
+    return { slug, article };
+  },
+  methods: {
+    signUp () {
+      this.$store.commit('trackEvent', {
+        name: 'sign-up',
+        payload: {
+          experiments: this.$experiments
+        }
+      });
     }
   }
+}
 </script>

@@ -16,8 +16,6 @@
     "dotenv": "^9.0.2",
     "js-cookie": "^2.2.1",
     "nuxt": "^2.15.3",
-    "nuxt-google-optimize": "^0.5.4",
-    "random-int": "^3.0.0",
     "vuex-persistedstate": "^4.0.0"
   },
   "devDependencies": {

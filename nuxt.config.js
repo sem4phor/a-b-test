@@ -24,7 +24,6 @@ export default {
   },
   plugins: [
     '~/plugins/experiments.client.js',
-    '~/plugins/tracking.client.js',
     '~/plugins/persistedState.client.js'
   ],
   components: true,
