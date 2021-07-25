@@ -1,0 +1,29 @@
+[
+  {
+    "name": "Check out the Blinkist App",
+    "slug": "blinkist-app",
+    "media": {
+      "variations": {
+        "control": {
+          "type": "img",
+          "url": "https://d2i5t58cb8fkm0.cloudfront.net/wp-content/uploads/2018/11/22140455/ThereseHoldingCup-1200x630-700x368.jpg"
+        },
+        "bookList": {
+          "type": "book-list",
+          "url": "https://d2i5t58cb8fkm0.cloudfront.net/wp-content/uploads/2021/07/12133935/BlinksCoversheader-700x362.png"
+        },
+        "video": {
+          "type": "video",
+          "url": ""
+        }
+      }
+    },
+    "introCopy": {
+      "variations": {
+        "control": "Meet the app that revolutionized reading.",
+        "test": "Meet the app that has 18 million users."
+      }
+    },
+    "outroCopy": "Thanks a lot for reading the article!"
+  }
+]
