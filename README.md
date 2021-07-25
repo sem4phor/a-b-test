@@ -17,6 +17,13 @@ means by a content api returning articles as JSON data.
 In this example app the editors can provide different variations for the media
 part of an article as well as the intro copy.
 
+## Test the test
+1. Go to https://sem4phor.github.io/
+2. Navigate to an article
+3. Click SignUp
+3. Inspect cookies / console
+4. delete cookies and content might change to a different variation
+
 ## Build Setup
 ```bash
 # install dependencies
