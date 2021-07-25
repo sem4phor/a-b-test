@@ -13,7 +13,7 @@ export default {
 
   router: {
     // middleware: 'trackPageview',
-    base: '/<repository-name>/'
+    // base: '/<repository-name>/'
   },
 
   env: {
